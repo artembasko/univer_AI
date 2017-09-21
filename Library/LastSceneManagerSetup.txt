@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scene/univer_AI.unity
+  isLoaded: 1
+  isActive: 1

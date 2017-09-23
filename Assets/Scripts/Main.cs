@@ -1,10 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System;
+using System.Collections.Generic;
+
 
 public class Main : MonoBehaviour
 {
+    public InputField Temperature_IF;
+    public InputField Age_IF;
+
     public float Temperature;
     public int Age;
+    public List<Float_String> A_0;
 	// Use this for initialization
 	void Start ()
     {
@@ -16,6 +23,13 @@ public class Main : MonoBehaviour
     {
 		
 	}
+    public void FindAnswers()
+    {
+        Temperature = 0.0f;//Zbros
+        Temperature = float.Parse(Temperature_IF.text);
+        Age = 0;//Zbros
+        Age = int.Parse(Age_IF.text);
+    }
 
     #region Temperature
     public void T1()
@@ -99,4 +113,25 @@ public class Main : MonoBehaviour
         }
     }
     #endregion
+}
+[Serializable]
+public class Test_Temp_Age
+{
+    public List<Float_String> TTA;
+
+}
+
+[Serializable]
+public class Float_String//тип переменной которая может содержать либо флоат либо стринг
+{
+   public float Param_f;
+   public string Param_s;
+  // public List<Float_String> Param_L;
+
+   public void Anulyacia()
+   {
+       Param_f = 0.0f;
+       Param_s = null;
+       // Param_L.Clear();
+   }
 }

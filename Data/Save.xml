@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main>
+  <database_0 name_0="T3" name_1="B1" LvL_piramid="5">
+    <!--Массив уровней (LVL)-->
+    <LVL_childs name="LVL">
+      <field Index="0" type="int" />
+      <field Index="2" type="int" />
+      <field Index="4" type="int" />
+      <field Index="0" type="int" />
+      <field Index="3" type="int" />
+    </LVL_childs>
+    <Current_Temperature name="T3" type="string" />
+    <Current_Age name="B1" type="string" />
+  </database_0>
+  <database_1 name_0="T3" name_1="B1" LvL_piramid="5">
+    <!--Массив уровней (LVL)-->
+    <LVL_childs name="LVL">
+      <field Index="0" type="int" />
+      <field Index="2" type="int" />
+      <field Index="4" type="int" />
+      <field Index="0" type="int" />
+      <field Index="3" type="int" />
+    </LVL_childs>
+    <Current_Temperature name="T3" type="string" />
+    <Current_Age name="B1" type="string" />
+  </database_1>
+</main>
